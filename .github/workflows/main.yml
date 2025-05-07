@@ -7,8 +7,8 @@ on:
 jobs:
   build:
     name: Start Building...
-    runs-on: windows-latest
-    timeout-minutes: 360
+    runs-on: ubuntu-latest
+
     
     steps:
 name: Downloading & Installing Essentials
